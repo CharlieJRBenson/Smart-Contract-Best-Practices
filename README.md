@@ -1,6 +1,9 @@
 # Smart-Contract Best Practices
-### This repository is dedicated to documenting a brief overview of 'Best Practice' when it comes to writing Smart Contracts on the Ethereum Virtual Machine (EVM).
+
 ### Author - Charlie Benson, Senior Blockchain Engineer
+
+### *This repository is dedicated to documenting a brief overview of 'Best Practice' when it comes to writing Smart Contracts on the Ethereum Virtual Machine (EVM).*
+
 
 
 
