@@ -24,6 +24,8 @@ Depending on your SC, the logic may be non-trivial, and should therefore be appr
 
 - Test the contracts thouroughly with tools like Hardhat, Foundry, Chai, Slither, Mythos, Solhint, Securify etc.
 
+- Have SC code reviewed and auditted by the like of Certik, Hacken, Consensys Dilligence etc
+
 - Provide incentives through Bug Bounties on sites such as Hacken, Immunefi etc
 
 - Upgradeability allows for a rollout of phases/versions.
