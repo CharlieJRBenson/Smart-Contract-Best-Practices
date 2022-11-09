@@ -1,1 +1,36 @@
-# SmartContractBestPractices
+# Smart-Contract Best Practices
+### This repository is dedicated to documenting a brief overview of 'Best Practice' when it comes to writing Smart Contracts on the Ethereum Virtual Machine (EVM).
+### Author - Charlie Benson, Senior Blockchain Engineer
+
+
+
+# Mindset
+
+## Easy to Fail
+As the adoption of this technology increases, the value we store between these lines of code does too. 
+The Ethereum Blockchain and other EVM's are public, permitting access to all of your SC functions and data. If not written with care, this can lead to easy access exploitability.
+
+
+Depending on your SC, the logic may be non-trivial, and should therefore be approached with the expectation of erros. So the SC must be written to enable it to respond to bugs and errors with ease:
+- Pausability.
+- Rate limiting (maximum address usuage).
+- Upgradeability (in the event of outdated logic).
+
+## Test Before Launch
+*Deployed Smart Contracts are IMMUTABLE.* 
+
+- Test the contracts thouroughly with tools like Hardhat, Foundry, Chai, Slither etc.
+
+- Provide incentives through Bug Bounties on sites such as Hacken, Immunefi etc
+
+- Upgradeability allows for a rollout of phases/versions.
+
+## Simplicity Is The Answer
+
+*More Code == More Errors*
+
+- Keep it simple, stupid. Smaller functions, modularised code. Clarity > Performance (This helps with future audits and developer/community code comprehension).
+
+- Utilise open-source, accepted, auditted code libraries and dependencies. Such as Openzeppelin ERC standards, roles and upgradeability contracts.
+
+- Avoid fuctionality that isn't required by decentralisation.
