@@ -19,7 +19,7 @@ Depending on your SC, the logic may be non-trivial, and should therefore be appr
 ## Test Before Launch
 *Deployed Smart Contracts are IMMUTABLE.* 
 
-- Test the contracts thouroughly with tools like Hardhat, Foundry, Chai, Slither etc.
+- Test the contracts thouroughly with tools like Hardhat, Foundry, Chai, Slither, Mythos, Solhint, Securify etc.
 
 - Provide incentives through Bug Bounties on sites such as Hacken, Immunefi etc
 
@@ -34,3 +34,22 @@ Depending on your SC, the logic may be non-trivial, and should therefore be appr
 - Utilise open-source, accepted, auditted code libraries and dependencies. Such as Openzeppelin ERC standards, roles and upgradeability contracts.
 
 - Avoid fuctionality that isn't required by decentralisation.
+
+## Don't Think You Know It All
+
+Ethereum and Solidity were only developed in 2015. New exploits, attack vectors, development standards and methods are uncovered and accepted frequently.
+
+
+- New uncovered attack-vectors, should call for a re-audit of your SC.
+- Upgrade to comply with newest tools and standards asap.
+- Stay up to date with development norms and news.
+
+## Common Exploits and Attack Vectors
+
+It is easy to accidently create vulnerabilities. Here is an overview of all common exploits and how they work:
+
+[Charlie's Smart Contract Vulnerabilty Dictionary.](https://wwww.github.com/CharlieJRBenson/)
+
+Here is a repository of how to exploit the common vulnerabilities:
+
+[Charlie's Ethernaut Challenge Documentation.](https://www.github.com/CharlieJRBenson/SmartContractHacking)
