@@ -58,3 +58,34 @@ It is easy to accidently create vulnerabilities. Here is an overview of all comm
 Here is a repository of how to exploit the common vulnerabilities:
 
 [Charlie's Ethernaut Challenge Documentation.](https://www.github.com/CharlieJRBenson/SmartContractHacking)
+
+
+## Key Compromises
+
+Smart Contracts generally follow normal software engineering best practices:
+- Modularisation.
+- Efficiently reused code (functionised, class based).
+- Upgradeablity.
+
+However, some considerations must be made with regards to waying up security benefits, performance and comprehensibilty:
+
+### Upgradeable or Fixed
+
+*Upgradeability/Modularity/Modifiability == Complexity*
+
+Remember we said to "Keep It Simple, Stupid". Refer to previous simpilicity arguments.
+
+### Inherited or Self-Contained
+
+Inherited contracts being those that inherit multiple abstract/non-abstract imported smart contracts.
+Self-contained contracts being those that contain all the logic and data within one smart contract.
+
+The latter improves comprehensibilty and security review. The former is useful when importing complex yet trusted contracts and standards, such as OpenZeppelin ERC's or Role's based logic.
+
+### Reused or Duplicate Code Blocks
+
+Maximise the use of functions and contracts to reuse code blocks without deuplication. Once again, very important for code legibility, security reviews and gas optimization.
+
+
+
+
