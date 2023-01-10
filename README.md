@@ -2,7 +2,7 @@
 
 ### Author - Charlie Benson, Senior Blockchain Engineer
 
-### *This repository is dedicated to documenting a brief overview of 'Best Practice' when it comes to writing Smart Contracts on the Ethereum Virtual Machine (EVM).*
+### *This repository is dedicated to documenting a brief overview of 'Best Practice' when it comes to writing and auditing Smart Contracts on the Ethereum Virtual Machine (EVM).*
 
 
 
@@ -86,6 +86,29 @@ The latter improves comprehensibilty and security review. The former is useful w
 
 Maximise the use of functions and contracts to reuse code blocks without deuplication. Once again, very important for code legibility, security reviews and gas optimization.
 
+# Security Audit Optimal Methodology
 
+### *This section of this document is directed more at the security research and audit aspects of smart contracts, moreso than development.*
+
+### *The following points are inspired by and refined from this Andy Li and Trust interview Dec 2022, linked [here](https://www.youtube.com/watch?v=NC4uzV-syIw&t=4099s&ab_channel=AndyLi).*
+
+- Understand the system, including reading documentation and understanding expected behaviour from a user perspective.
+
+- Examine the code, looking for points where developer assumptions can be falsified and identifying possible changes in state.
+
+- Test and stress the system on these assumptions.
+
+- Stay focused on the task at hand, and minimize distractions.
+
+- But also take breaks to refresh the mind and improve concentration, subconscious problem-solving still happens.
+
+- After identifying any early issues, don't submit a report until the last moment of a contest. Your growing understanding of the codebase could increase these issues to a higher severity rating.
+
+- Make sure your reports communicate issues effectively with the development team, as they will be responsible for implementing any fixes or improvements.
+
+- Focus on building a strong foundation of knowledge and staying up to date on new developments and techniques used to exploit projects.
+Eg. Marketplace/Flash-loan/Dex projects will have the same fundamentals as their competition. The more you know and understand, the more you see.
+
+- Ultimately use a systematic and thorough approach, and be prepared to adapt and pivot as needed depending on the project use case.
 
 
