@@ -53,7 +53,7 @@ Ethereum and Solidity were only developed in 2015. New exploits, attack vectors,
 
 It is easy to accidently create vulnerabilities. Here is an overview of all common exploits and how they work:
 
-[Charlie's Smart Contract Vulnerabilty Dictionary.](https://wwww.github.com/CharlieJRBenson/)
+[Charlie's Smart Contract Vulnerabilty Dictionary.](https://github.com/CharlieJRBenson/Smart-Contract-Vulnerability-Dictionary)
 
 Here is a repository of how to exploit the common vulnerabilities:
 
