@@ -57,7 +57,7 @@ It is easy to accidently create vulnerabilities. Here is an overview of all comm
 
 Here is a repository of how to exploit the common vulnerabilities:
 
-[Charlie's Ethernaut Challenge Documentation.](https://www.github.com/CharlieJRBenson/SmartContractHacking)
+[Charlie's CTF Challenge Documentation.](https://www.github.com/CharlieJRBenson/SmartContractHacking)
 
 
 ## Key Compromises
