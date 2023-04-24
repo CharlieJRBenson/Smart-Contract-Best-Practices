@@ -118,9 +118,9 @@ Eg. Marketplace/Flash-loan/Dex projects will have the same fundamentals as their
 Every line or chunk of code has some invisible "danger" value, which is the probability of a mistake being injected. As a hunter, time and attention are your only resource constraints. It follows that to maximize success you need to spend those resources on the highest-value sections.* 
 
 So what are the red hotspots on my heatmap?
-- fundamentally complex code
-- undertested/hard-to-test code
-- novel ideas or implementations
-- heuristics triggered - gas/delegatecall/callbacks/eth-weth duality etc.
+- **fundamentally complex code**
+- **undertested/hard-to-test code**
+- **novel ideas or implementations**
+- **heuristics triggered - gas/delegatecall/callbacks/eth-weth duality etc.**
 
 Mastering the bug density heatmap is the single most profitable thing you can do in bounties.
